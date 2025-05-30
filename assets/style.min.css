@@ -704,8 +704,7 @@ main {
   .recent-work img {
     object-fit: contain;
   }
-  .habitual-app-image,
-  .moneypal-app-image {
+  .habitual-app-image {
     width: 250px;
     height: 501px;
   }
@@ -954,3 +953,51 @@ strong {
 .card:hover {
   transform: translateY(-5px);
 }
+
+.stack-chip-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.imocerto-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.imocerto-image-wrapper {
+  flex: 1 1 300px;
+}
+
+.imocerto-app-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.block-context {
+  flex: 2 1 400px;
+}
+
+.stack-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.stack-chip-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f3f4f6;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+

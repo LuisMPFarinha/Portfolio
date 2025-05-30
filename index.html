@@ -262,7 +262,7 @@
         <div class="profile-pic-container">
           <img
             class="profile-pic"
-            src="assets/profile_pic.jpeg"
+            src="assets/profile_pic_1.jpg"
             alt="Luís Farinha Profile Picture"
           />
         </div>
@@ -303,31 +303,129 @@
         <!-- Recent Projects -->
         <section id="projects" class="flow-content">
           <h2 class="heading">Recent Projects</h2>
-          <div id="moneypal" class="recent-work flow-content">
-            <div>
-              <img
-                alt="MoneyPal App by Luís Farinha"
-                class="moneypal-app-image"
-                loading="lazy"
-                src="assets/iImocerto.png"
-              />
-            </div>
-            <div class="block-context flow-content">
-              <h3 class="text title">Imocerto</h3>
-              <p class="text content">
-                Imocerto is a real estate web application built by a small team
-                of friends, designed to streamline the discovery and evaluation
-                of properties across Portugal. The platform allows users to
-                explore listings and estimate renovation or construction costs
-                using intuitive, user-centered tools. As a core contributor, I
-                developed the favorites system, enabling users to create custom
-                real estate groups for organizing and tracking interesting
-                properties. This feature enhances user engagement and retention
-                by supporting personalized property exploration. I also
-                contributed across the stack, working with Next.js, Tailwind
-                CSS, Drizzle ORM, and Hono, with the frontend powered by React
-                and deployed on Hetzner.
-              </p>
+          <div id="imocerto" class="recent-work flow-content">
+            <div class="imocerto-grid">
+              <!-- Image Block -->
+              <div class="imocerto-image-wrapper">
+                <img
+                  alt="Imocerto by Luís Farinha"
+                  class="imocerto-app-image"
+                  loading="lazy"
+                  src="assets/iImocerto.png"
+                />
+              </div>
+
+              <!-- Content Block -->
+              <div class="block-context flow-content">
+                <h3 class="text title">Imocerto</h3>
+
+                <p class="text content">
+                  <a
+                    href="https://www.imocerto.com/"
+                    class="external-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Imocerto
+                  </a>
+                  is a real estate web application built by a small team of
+                  friends to help users explore and evaluate properties across
+                  Portugal.
+                </p>
+
+                <p class="text content">
+                  Although still in early development, the platform already
+                  enables users to browse listings and estimate renovation or
+                  construction costs with intuitive, user-friendly tools.
+                </p>
+
+                <p class="text content">
+                  I developed the <strong>favorites system</strong>, allowing
+                  users to create custom property groups to organize and track
+                  listings of interest. This boosts engagement through
+                  personalized exploration.
+                </p>
+
+                <p class="text content">
+                  We use a modern, lightweight tech stack for scalability and
+                  maintainability:
+                </p>
+
+                <ul class="stack-chips">
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                      alt="TypeScript"
+                      width="20"
+                      height="20"
+                    />
+                    Typescript
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt="React"
+                      width="20"
+                      height="20"
+                    />
+                    React
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                      alt="Next.js"
+                      width="20"
+                      height="20"
+                    />
+                    Next.js
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
+                      alt="Tailwind CSS"
+                      width="20"
+                      height="20"
+                    />
+                    Tailwind CSS
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://raw.githubusercontent.com/drizzle-team/drizzle-orm/main/assets/drizzle.svg"
+                      alt="Drizzle ORM"
+                      width="20"
+                      height="20"
+                    />
+                    Drizzle ORM
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://hono.dev/images/logo.svg"
+                      alt="Hono"
+                      width="20"
+                      height="20"
+                    />
+                    Hono
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://www.hetzner.com/assets/Uploads/hetzner-logo.svg"
+                      alt="Hetzner"
+                      width="20"
+                      height="20"
+                    />
+                    Hetzner
+                  </li>
+                  <li class="text stack-chip-item">
+                    <img
+                      src="https://cursor.sh/logo.svg"
+                      alt="Cursor"
+                      width="20"
+                      height="20"
+                    />
+                    Cursor
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -516,13 +614,13 @@
                   <li class="text">
                     Developed responsive web applications like
                     <a
-                      href="https://www.uniksystem.com/pt/unikpeople-portal-do-colaborador/"
+                      href="https://www.uniksystem.com/self-service-portal/"
                       target="_blank"
                       title="Uniksystem Portal"
                       aria-label="Uniksystem Portal"
                       class="external-link"
                     >
-                      <strong>Portal do Colaborador</strong>
+                      <strong>Employee Self Service (ESS) Portal</strong>
                     </a>
                     , an HR platform that handles employee timesheets, expense
                     reports, and holiday requests, using <strong>Java</strong>,
@@ -788,7 +886,7 @@
             <div class="frontend card">
               <h3 class="text title">Frontend</h3>
               <ul class="skills-list-ul">
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                     alt="React"
@@ -797,7 +895,7 @@
                   />
                   React
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                     alt="Next.js"
@@ -806,7 +904,7 @@
                   />
                   Next.js
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
                     alt="Tailwind CSS"
@@ -815,7 +913,7 @@
                   />
                   Tailwind CSS
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     alt="JavaScript"
@@ -824,7 +922,7 @@
                   />
                   JavaScript
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                     alt="TypeScript"
@@ -833,7 +931,7 @@
                   />
                   TypeScript
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
                     alt="Redux"
@@ -847,7 +945,7 @@
             <div class="backend card">
               <h3 class="text title">Backend</h3>
               <ul class="skills-list-ul">
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
                     alt="Java"
@@ -856,7 +954,7 @@
                   />
                   Java
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
                     alt="Spring Boot"
@@ -865,7 +963,7 @@
                   />
                   Spring Boot
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                     alt="Node.js"
@@ -874,7 +972,7 @@
                   />
                   Node.js
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
                     alt="MongoDB"
@@ -883,7 +981,7 @@
                   />
                   MongoDB
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                     alt="MySQL"
@@ -892,7 +990,7 @@
                   />
                   MySQL
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
                     alt="PostgreSQL"
@@ -901,7 +999,7 @@
                   />
                   PostgreSQL
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
                     alt="Microsoft SQL Server"
@@ -915,7 +1013,7 @@
             <div class="tools card">
               <h3 class="text title">Tools</h3>
               <ul class="skills-list-ul">
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                     alt="Git"
@@ -924,7 +1022,7 @@
                   />
                   Git
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
                     alt="Postman"
@@ -933,7 +1031,7 @@
                   />
                   Postman
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                     alt="Figma"
@@ -942,7 +1040,7 @@
                   />
                   Figma
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
                     alt="Jenkins"
@@ -951,7 +1049,7 @@
                   />
                   Jenkins
                 </li>
-                <li class="text">
+                <li class="text flex items-center gap-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
                     alt="Hertzner"

@@ -1,0 +1,30 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Strong gradient for hexagon background -->
+      <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f9fafb" />
+        <stop offset="100%" stop-color="#9ca3af" />
+      </linearGradient>
+  
+      <style>
+        .hex { fill: url(#hexGradient); }
+        .border { fill: none; stroke: #1f2937; stroke-width: 4; } /* Dark gray border */
+        .text {
+          font-family: Inter, sans-serif;
+          font-weight: 700;
+          font-size: 36px;
+          fill: #000000;
+          dominant-baseline: middle;
+          text-anchor: middle;
+        }
+      </style>
+    </defs>
+  
+    <!-- Hexagon with gradient background -->
+    <polygon points="60,10 105,35 105,85 60,110 15,85 15,35" class="hex"/>
+    <polygon points="60,15 100,38 100,82 60,105 20,82 20,38" class="border"/>
+  
+    <!-- Centered black LF text -->
+    <text x="60" y="64" class="text">LF</text>
+  </svg>
+  

@@ -961,13 +961,10 @@ strong {
 }
 
 .imocerto-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
+  width: 100% !important;
 }
-
 .imocerto-image-wrapper {
+  margin: 20px 28px 0px 0px;
   flex: 1 1 300px;
 }
 
@@ -976,6 +973,7 @@ strong {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 .block-context {
